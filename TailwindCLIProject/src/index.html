@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+    
+    <title> Tailwind Basics</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-900">
+    <!-- typography -->
+    <p class="font-sans"> This text uses sans font </p>
+    <p class="font-serif"> This text uses serif font </p>
+    <p class="font-mono"> This text uses mono font </p>
+    <p class="font-kalnia-glaze"> This text uses mono font </p>
+
+
+
+    <!-- font sizes -->
+<p class="text-xs"> extra small text</p>
+<p class="text-sm"> extra small text</p>
+<p class="text-base"> extra small text</p>
+<p class="text-lg"> extra small text</p>
+<p class="text-xl"> extra small text</p>
+<!-- responsive sizes -->
+<p class="text-base md:text-lg"> extra small text</p>
+<p class="text-base md:text-lg lg:text-xl"> extra small text</p>
+
+<!-- diffrent font sizes , extra large sizes-->
+
+<p class="text-2xl"> extra large text</p>
+<!-- goes upto 9xl , but after 5 xl add ur sizes in config.js extend -->
+
+<h1 class="text-3xl font-bold"> Sample Title </h1>
+<span class="font-kalnia-glaze"> Lorem ipsum    </span>dolor sit amet consectetur adipisicing elit. 
+Provident suscipit ex <span class="font-extrabold">  recusandae optio, vero nihil. </span>  
+<span class="leading-7">  Tempora eum eligendi maiores nesciunt, cupiditate dolor. 
+Obcaecati laudantium labore magnam harum at a error.
+</span>
+
+<!-- colors -->
+<div class="h-8 bg-green-100"> extra large text</div>
+
+<div class="text-gray-500"> extra large text</div>
+
+<!-- padding & margin -->
+
+<button class="text-white bg-red-400 p-5 m-2"> Click me </button>
+<!-- padding goes to 0 to 32 -->
+<!-- px-2 , py-2 , ps-2 , pe -2 , pt-2 ,pb-2 , pl-2 , pr-2  -->
+
+<!-- margin is m-2 , has classes same like padding ! -->
+
+
+<!-- borders -->
+
+<button class="text-white bg-red-400 p-5 m-2 border-x-8 rounded-2xl border-yellow-600 hover:bg-white hover:text-black"> Click me </button>
+
+<!-- border also has all 4 sides  -->
+<!-- border radius & leading , hover can be searched -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+<!-- // fontSize: {
+    //   sm: '0.8rem',
+    //   base: '1rem',
+    //   xl: '1.25rem',
+    //   '2xl': '1.563rem',
+    //   '3xl': '1.953rem',
+    //   '4xl': '2.441rem',
+    //   '5xl': '3.052rem',
+    // }
+     -->
+
+     <!-- setting own colors 
+
+     colors: {
+
+        'pure-red' : '#000000'
+
+     } -->
+
+     <!-- for using colors , use 
+     bg-pure-red
+     text-pure-red -->
